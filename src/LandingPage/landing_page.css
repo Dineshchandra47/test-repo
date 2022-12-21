@@ -1,0 +1,29 @@
+.LandingPage-container{
+    display: flex;
+    justify-content: space-evenly; 
+    padding:10px; 
+}
+.LandingPage-container>div{
+    width:30%;
+    align-self: center;
+}
+.LandingPage-container img{
+    width:100%;
+}
+.LandingPage-container h2{
+    color: rgb(62, 104, 255);
+}
+.enter-btn{
+    background-color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+}
+.enter-btn:hover{
+    background-color: rgb(121, 150, 255);
+    color: white;
+}
+.enter-btn:focus{
+    background-color: white;
+    color: black;
+}
